@@ -3,38 +3,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resgistro</title>
+    <link rel="stylesheet" href="miestilo.css"> <!--con esta linea se enlaza con el archivo de CSS-->
 
-
-<!--a continuacion se coloca el tipo de estilo tipo de letra, fondo y color de letra-->
-<style type="text/css">  
-    body {
-        padding-left: 11em;
-        color: white;
-        background-color: rgb(5, 133, 48);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    ul.navbar {
-        position: absolute;
-        top: 2em;
-        left: 1em;
-        width: 9em;
-    }
-    h1 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-</style>
 
 </head>
 
 <body>
+    <header>
+        <h1>REGISTRO PRINCIPAL</h1>
+    </header>
+
+    <aside>
     <!--MENU-->
     <h1>REGISTRO</h1>
         <nav> <!--Lugar para navegacion--> 
-            <ul>
-                <li>Asambleistas</li> 
-                <li>Participantes</li>
-                <li>Reportes</li>
+            <ul class="navbar">
+                <li><a href="Pagina_Reg.html">Asistentes UNIPA</a>
+                <li><a href="Invitado.html">Asistentes Otra Org</a>
+                <li><a href="Estadisticas_Gral.html">Estadisticas Generales</a>
+                <li><a href="Estadisticas_Resg.html">Estadisticas por Resguardo</a> 
+                <li><a href="Consulta_Doc.html">Consulta de Documento</a>
+                
             </ul>
         </nav>
+    </aside>
+
+    <article>
+        <h2>Mi primera pagina con Estilo CSS</h2>
+        <p>Bienvanido a mi primera pagina</p>
+        <p>No tiene Imagenes, pero tiene estilo, y hace falta dar referencia o hipervinculo al menu</p>
+    </article>  
+    
+    <footer>
+        <address>Creada el 12 de Agosto del 2024 Att. Byron Torres</address>
+    </footer>
 </body>
 </html>
