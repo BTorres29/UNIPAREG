@@ -10,8 +10,8 @@ header {
     background-color: blue;
 }
 
-article {
-    background-color: rgb(28, 122, 204);
+section {
+    background-color: rgb(204, 134, 28);
     top: 7em;
     left: 20em;
     width: 100em;
