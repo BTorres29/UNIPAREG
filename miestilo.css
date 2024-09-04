@@ -34,8 +34,12 @@ margin: 0%;
     }
 }
 
+/**------------------------CSS cuerpo------------------------**/
 body{
-    background: rgba(240, 230, 230, 0.678);
+    /*background: rgba(240, 230, 230, 0.678);*/
+    background-image: url(Imagenes/paisaje.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -57,7 +61,7 @@ body{
 
 #general{
     width: 1200px;
-    background: white;
+    background: rgb(255, 239, 239);
     margin: 0.3em auto;
     padding: 0.1em;
     
@@ -168,19 +172,6 @@ ul {
            
 }
 
-/*
-.pie1 {
-    background-color: rgb(250, 250, 126);
-}
-
-.pie2 {
-    background-color: white;   
-}
-
-.pie3 {
-    background-color: rgb(131, 252, 131);   
-}*/
-
 .texto{
     /*display: flex;
     flex-direction: column;
@@ -216,13 +207,27 @@ ul {
 .redes{ 
     /*background: rgb(151, 43, 43);*/
     margin-left: 38em;
+    text-decoration: none;
     padding: auto;
+    color: white;
+    
        
 }
 
 .footer .subfooter .pie .texto .redes img{    
     margin-left: 30em;
     padding: 30px;
+}
+
+.web{
+    text-decoration: none;
+    color: white;
+
+}
+.quienes{
+    text-decoration: none;
+    color: white;
+    
 }
 
 /*
@@ -262,7 +267,7 @@ hr{
 
 h5{
     margin: 13px;
-    margin-left: 28px;
+    margin-left: 24px;
     padding: auto;
     justify-content: left;
 }
