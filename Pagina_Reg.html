@@ -4,38 +4,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resgistro</title>
     <link rel="stylesheet" href="miestilo.css"> <!--con esta linea se enlaza con el archivo de CSS-->
-
-
 </head>
-
 <body>
-    <header>
-        <h1>REGISTRO PRINCIPAL</h1>
-    </header>
-
-    <aside>
-    <!--MENU-->
-    <h1>REGISTRO</h1> 
-        <nav> <!--Lugar para navegacion--> 
-            <ul class="navbar">
-                <li><a href="Pagina_Reg.html">Asistentes UNIPA</a>
-                <li><a href="Invitado.html">Asistentes Otra Org</a>
-                <li><a href="Estadisticas_Gral.html">Estadisticas Generales</a>
-                <li><a href="Estadisticas_Resg.html">Estadisticas por Resguardo</a> 
-                <li><a href="Consulta_Doc.html">Consulta de Documento</a>
+    <!--<img class="imag_fondo" src="Imagenes/paisaje.jpeg" alt="Paisaje" width="1450">-->    
+    <!--con estas 3 lineas se realizala adpatacion de pantallas movil, tablet y escritorio, tambien hay que revisar el archivo CSS-->
+    <div class="desktop"></div>
+    <div class="tablet"></div>
+    <div class="movil"></div>
+    <div id="general">
+        <div id="header">
+            <header>     
+                <!--carga de imagen-->
+                    <img class="imagcongreso" src="Imagenes/logoasamblea2024-0.jpg" alt="Congreso" title="V Congreso UNIPA"> 
                 
+                    <!--parte de la imagen se convierte en link-->   
+                    <map name="mimapa">
+                        <area shape="circle" coords="27,28,20" href="https://www.google.com/" alt="Montaña">
+                    </map>
+            </header>
+        </div>
+        <div id="nav"><!--Lugar para navegacion--> 
+            <ul class="navbar">
+                <li><a href="Pagina_Reg.html">INICIO</a>
+                <li><a href="Pagina_Reg.html">ASISTENTES UNIPA</a>
+                <li><a href="Invitado.html">ASISTENTES OTRA ORG</a>
+                <li><a href="Estadisticas_Gral.html">ESTADITICAS GENERALES</a>
+                <li><a href="Estadisticas_Resg.html">ESTADISTICAS POR RESGUARDO</a> 
+                <li><a href="Consulta_Doc.html">CONSULTA DE DOCUMENTO</a>                
             </ul>
-        </nav>
-    </aside>
-    <section>
-        <article>
-            <h2>Mi primera pagina con Estilo CSS</h2>
-            <p>Bienvanido a mi primera pagina</p>
-            <p>No tiene Imagenes, pero tiene estilo, y hace falta dar referencia o hipervinculo al menu</p>
-        </article>  
-    </section>
-    <footer>
-        <address>Creada el 12 de Agosto del 2024 Att. Byron Torres</address>
-    </footer>
+        </div>
+        <div id="contenido">
+            <div id="menu">
+                <br>
+                <h2 class="titulo">PARTICIPANTE AWÁ - DATOS PERSONALES</h2>
+            </div>
+            <div id="datos">
+                <section>
+                    <article>
+                        <h2>Mi primera pagina con Estilo CSS</h2>
+                        <p>Bienvanido a mi primera pagina</p>
+                        <p>No tiene Imagenes, pero tiene estilo, y hace falta dar referencia o hipervinculo al menu</p>
+                    </article>  
+                </section>
+            </div>
+        </div>
+        <div class="footer">           
+            <footer>
+                <div class="subfooter">                                   
+                    <div class="pie">
+                        <div class="texto">
+                            <h3>V Congreso UNIPA</h3>
+                            <p>Software de Uso exclusivo para la Unidad Indígena del Pueblo Awá - UNIPA</p>
+                        </div>
+                    </div>
+                    <div class="pie">
+                        <div class="texto">
+                            <h3>Acerca de</h3>
+                            <p>• Preguntas Frecuentes <br><br>• Quienes somos</p>
+                        </div>
+                    </div>
+                    <div class="pie">
+                        <div class="texto">
+                            <h3>Conocenos</h3>
+                            <p>• Pagina WEB<br><br>• Siguenos 
+                                
+                               <!--<img class="fec" src="Imagenes/facebook.png" alt="facebook">
+                                <img class="you" src="Imagenes/youtube.png" alt="youtube">-->                        
+                            </p>    
+                                              
+                        </div>
+                    </div>
+                    <div class="pie">
+                        <div class="texto">
+                            <h3>Creaty by</h3>
+                            <p>Ing. BYRON TORRES <br><br>unipabarbasama@gmail.com</p>
+                        </div>
+                    </div>                            
+                </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/share/YfD4pXzotXJYFetU/?mibextid=qi2Omg" ><img src="Imagenes/facebook.png" alt="" width="20"></a>
+                        <a href="https://youtube.com/@audiovisualesawaunipa5751?si=hxdcVyxhm_1e3JVG"><img src="Imagenes/youtube.png" alt="" width="20"></a>
+                        <a href="https://www.instagram.com/awa_unipa?igsh=MXZsa2R0bmhoYW1oeQ=="><img src="Imagenes/instagran.png" alt="" width="20"></a>
+                    </div>  
+                <div class="final"><hr>                    
+                </div>
+                <h5>&#169 2025 Todos los derechos Reservardos.</h5>
+            </footer>
+        </div>
+    </div>    
 </body>
 </html>
